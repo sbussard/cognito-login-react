@@ -1,0 +1,31 @@
+@import "~theme/colors.scss";
+
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+html,
+body,
+main {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 10px by default
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  color: $gray-xdark;
+  font-family: sans-serif;
+}

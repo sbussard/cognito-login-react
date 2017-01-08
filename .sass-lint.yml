@@ -1,0 +1,177 @@
+files:
+  include: '**/*.s+(a|c)ss'
+options:
+  formatter: stylish
+  merge-default-rules: false
+rules:
+  border-zero: 2
+  brace-style:
+    - 2
+    - allow-single-line: false
+  class-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  empty-line-between-blocks: 2
+  extends-before-declarations: 2
+  extends-before-mixins: 2
+  final-newline:
+    - 2
+    - include: true
+  force-attribute-nesting: 2
+  force-element-nesting: 2
+  force-pseudo-nesting: 2
+  function-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  hex-length:
+    - 2
+    - style: short
+  hex-notation:
+    - 2
+    - style: uppercase
+  id-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  indentation:
+    - 2
+    - size: 2
+  leading-zero:
+    - 2
+    - include: true
+  mixin-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  mixins-before-declarations: 2
+  no-color-keyword: 0
+  no-css-comments: 0
+  no-debug: 2
+  no-duplicate-properties: 0
+  no-empty-rulesets: 2
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties:
+    - 2
+    - extra-properties: []
+  no-trailing-zero: 2
+  no-url-protocols: 0
+  placeholder-in-extend: 2
+  placeholder-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  property-sort-order:
+    - 2
+    - order:
+        - content
+        - counter-increment
+        - counter-reset
+        - quotes
+        - cursor
+        - pointer-events
+        - table-layout
+        - border-collapse
+        - border-spacing
+        - empty-cells
+        - caption-side
+        - list-style
+        - list-style-type
+        - list-style-position
+        - list-style-image
+        - display
+        - position
+        - float
+        - clear
+        - overflow
+        - clip
+        - visibility
+        - top
+        - right
+        - bottom
+        - left
+        - z-index
+        - zoom
+        - margin
+        - margin-top
+        - margin-right
+        - margin-bottom
+        - margin-left
+        - min-width
+        - width
+        - max-width
+        - min-height
+        - height
+        - max-height
+        - padding
+        - padding-top
+        - padding-right
+        - padding-bottom
+        - padding-left
+        - border
+        - border-width
+        - border-style
+        - border-color
+        - border-top
+        - border-top-width
+        - border-top-style
+        - border-top-color
+        - border-right
+        - border-right-width
+        - border-right-style
+        - border-right-color
+        - border-bottom
+        - border-bottom-width
+        - border-bottom-style
+        - border-bottom-color
+        - border-left
+        - border-left-width
+        - border-left-style
+        - border-left-color
+        - border-radius
+        - outline
+        - outline-width
+        - outline-style
+        - outline-color
+        - box-shadow
+        - background
+        - background-color
+        - background-image
+        - background-repeat
+        - background-attachment
+        - background-position
+        - background-size
+        - color
+        - opacity
+        - direction
+        - unicode-bidi
+        - whitespace
+        - font
+        - font-style
+        - font-variant
+        - font-weight
+        - font-size
+        - font-size-adjust
+        - line-height
+        - font-family
+        - text-align
+        - text-decoration
+        - text-indent
+        - text-transform
+        - text-shadow
+        - vertical-align
+        - word-spacing
+        - letter-spacing
+  quotes:
+    - 2
+    - style: double
+  shorthand-values: 2
+  single-line-per-selector: 2
+  space-after-colon: 2
+  space-after-comma: 2
+  space-before-brace: 2
+  space-before-colon: 2
+  space-between-parens: 2
+  trailing-semicolon: 2
+  url-quotes: 2
+  variable-name-format:
+    - 2
+    - convention: "^(?:[a-z][A-Za-z]+-)?(?:[A-Za-z]+)(?:[-_]{1,2}[a-z][A-Za-z\\d]+)*$"
+  zero-unit: 2

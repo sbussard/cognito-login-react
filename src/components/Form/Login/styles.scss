@@ -1,0 +1,21 @@
+@import "~theme/colors.scss";
+
+.form {
+  padding: 1em;
+  border-radius: 0.25em;
+  background: $blue;
+  color: $white;
+}
+
+.column {
+  padding: 0.5em;
+
+  &:last-child {
+    text-align: right;
+  }
+}
+
+.label {
+  display: inline-block;
+  width: 5em;
+}

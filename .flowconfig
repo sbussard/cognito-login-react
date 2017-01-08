@@ -1,0 +1,12 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+suppress_comment=\\(.\\|\n\\)*\\@ignore
+module.name_mapper='^.*\.s?css$' -> 'css-module-flow'
+
+# holds true for flat string to string maps
+module.name_mapper='^.*copy\.json$' -> 'css-module-flow'
