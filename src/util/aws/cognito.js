@@ -7,11 +7,13 @@ import {
 } from 'amazon-cognito-identity-js';
 
 import {
+  AWS_REGION,
   AWS_COGNITO_USER_POOL_ID,
   AWS_COGNITO_USER_POOL_CLIENT_ID,
-  AWS_COGNITO_FEDERATED_IDENTITY_POOL_ID,
-  AWS_COGNITO_FEDERATED_IDENTITY_TOKEN
+  AWS_COGNITO_FEDERATED_IDENTITY_POOL_ID
 } from '~/configuration';
+
+const AWS_COGNITO_FEDERATED_IDENTITY_TOKEN = `cognito-idp.${AWS_REGION}.amazonaws.com/${AWS_COGNITO_USER_POOL_ID}`;
 
 let authenticateUser = async (cognitoUser, authenticationDetails) =>
   new Promise((resolve, reject) => {
