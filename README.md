@@ -1,9 +1,3 @@
-# cognito-login-react
+# THIS REPO IS DEPRECATED
 
-## Start
-
-`npm install`
-
-`npm start`
-
-Go to `localhost:7000`
+### Check out [aws-amplify](https://www.github.com/aws/aws-amplify) instead
